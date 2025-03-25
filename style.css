@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e1e1e, #3f51b5);
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 20px;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Menu Buttons */
+#menu button {
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 12px;
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu button:hover {
+  background: #f57c00;
+  transform: scale(1.1);
+}
+
+/* Game Container */
+#gameContainer {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Target for Aiming Mode */
+.target {
+  width: 50px;
+  height: 50px;
+  background: #ff3d00;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.target:hover {
+  transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  color: #bbb;
+}

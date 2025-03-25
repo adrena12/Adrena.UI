@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adrena - Reflex & CPS Test</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="app">
+    <h1>Adrena - Reflex & CPS Master! ⚡️</h1>
+
+    <!-- Menu for Game Modes -->
+    <div id="menu">
+      <button onclick="showGame('reflexTest')">⚡️ Reflex Test</button>
+      <button onclick="showGame('cpsTest')">🖱️ CPS Test</button>
+      <button onclick="showGame('aimingTest')">🎯 Aiming Test</button>
+      <button onclick="showGame('cpsGame')">🎮 CPS Mini-Games</button>
+      <button onclick="showStats()">🏆 Personal Bests</button>
+    </div>
+
+    <!-- Game Container -->
+    <div id="gameContainer"></div>
+
+    <!-- Footer -->
+    <footer>
+      <p>💥 Built with Love by Adrena Devs 😎</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
